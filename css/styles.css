@@ -1,0 +1,61 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+#CBD84C - lime green from biz card
+#A09A00 - green text from biz card
+#5D5D5F - gray from biz card
+#EFF0F2 - light gray from biz card
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+font-family: 'Open Sans', sans-serif;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+}
+a {
+    color: #EF233C;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    }
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background-color: #CBD84C;
+    color: #5D5D5F;
+}
+header h1, header h2 {
+    color: #5D5D5F;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background-color: #EFF0F2;
+}
+
+
+/* Education
+------------------------------------*/
+.education{
+    background-color: #5D5D5F;
+    color: #EDF2F4;
+}
