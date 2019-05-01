@@ -11,8 +11,22 @@
 
 /* Global styles 
 ------------------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+a {
+    color: #EF233C;
+}
+a:hover {
+    text-decoration: none;
 }
 h1, h2 {
     font-family: 'Caveat', cursive;
@@ -23,26 +37,57 @@ h1 {
 }
 h2 {
     font-size: 40px;
-}
-a {
-    color: #EF233C;
-}
-a:hover {
-    text-decoration: none;
+    margin-top: 0;
 }
 .content-wrap {
-    max-width: 950px;
-    margin: 0 auto;
-    }
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
 
 /* Header & Footer 
 ------------------------------------*/
-header, footer {
+header, 
+footer {
     background-color: #CBD84C;
     color: #5D5D5F;
 }
-header h1, header h2 {
+header h1, 
+header h2 {
     color: #5D5D5F;
+    margin: 0;
+}
+/* Header styles only */
+header {
+  /*text-align: center;*/
+}
+.profile-img {
+  /*width: 300px;*/
+  border-radius: 50%;
+  /*float: left;*/
+  /*margin-right: 30px;*/
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
 }
 
 
